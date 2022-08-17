@@ -43,7 +43,7 @@ function Cities() {
         </form>
         {
             status==="successed" ? (
-                <h3 className=' text-center my-5' style={{color:color}}>Weather in <span className='text-uppercase'>{city}</span></h3>
+                <h3 className=' text-center my-5 text-uppercase' style={{color:color}}>{items.timezone}-{city}</h3>
             ): ""
         }
         
